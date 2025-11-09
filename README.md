@@ -3,120 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DIT University - Official Website</title>
+  <title>DIT University - Cloud Computing Project</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f5f7fa;
+      background-color: #f4f7fb;
       color: #333;
     }
-
     header {
-      background-color: #004080;
+      background-color: #003366;
       color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      padding: 15px;
-    }
-
-    header img {
-      width: 120px;
-      height: auto;
-      margin-bottom: 10px;
-    }
-
-    nav {
-      background: #022b5f;
       text-align: center;
-      padding: 10px;
+      padding: 20px;
+      position: relative;
     }
-
+    header img {
+      position: absolute;
+      left: 30px;
+      top: 10px;
+      height: 80px;
+    }
+    nav {
+      background: #004d99;
+      text-align: center;
+      padding: 12px;
+    }
     nav a {
       color: white;
-      margin: 0 15px;
+      margin: 0 20px;
       text-decoration: none;
       font-weight: bold;
-      transition: 0.3s;
     }
-
     nav a:hover {
       text-decoration: underline;
-      color: #ffcc00;
     }
-
-    .banner {
-      width: 100%;
-      height: 300px;
-      background-image: url('https://www.dituniversity.edu.in/uploads/slider/ditu-campus.jpg');
-      background-size: cover;
-      background-position: center;
-    }
-
     section {
       padding: 25px;
     }
-
     h2 {
-      color: #004080;
-      border-bottom: 2px solid #004080;
-      display: inline-block;
+      color: #003366;
+      border-bottom: 2px solid #003366;
       padding-bottom: 5px;
     }
-
-    footer {
-      background: #004080;
-      color: white;
-      text-align: center;
-      padding: 15px 0;
-      margin-top: 20px;
+    .banner {
+      width: 100%;
+      height: 300px;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/17/DIT_University_campus.jpg');
+      background-size: cover;
+      background-position: center;
     }
-
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 15px;
+      margin-top: 10px;
     }
-
     table, th, td {
-      border: 1px solid #ccc;
+      border: 1px solid #bbb;
     }
-
     th, td {
-      padding: 8px;
+      padding: 10px;
       text-align: left;
     }
-
-    .image-gallery {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
       margin-top: 20px;
-    }
-
-    .image-gallery img {
-      width: 300px;
-      height: 200px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
 
 <header>
-  <img src="https://www.dituniversity.edu.in/images/dit-logo.svg" alt="DIT University Logo">
+  <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/DIT_University_logo.png" alt="DIT Logo">
   <h1>DIT University, Dehradun</h1>
-  <p>Imagine | Innovate | Inspire</p>
+  <p><i>Imagine | Innovate | Inspire</i></p>
 </header>
 
 <nav>
   <a href="#home">Home</a>
-  <a href="#about">About</a>
+  <a href="#about">About Us</a>
   <a href="#departments">Departments</a>
   <a href="#admissions">Admissions</a>
   <a href="#contact">Contact</a>
@@ -126,35 +95,50 @@
 
 <section id="home">
   <h2>Welcome to DIT University</h2>
-  <p>DIT University is a leading institution committed to academic excellence, innovation, and holistic education.</p>
-  <p><strong>Mission:</strong> To provide quality education that empowers students with knowledge and professional values.</p>
-
-  <div class="image-gallery">
-    <img src="https://www.dituniversity.edu.in/uploads/gallery/thumb/campus-dit-1.jpg" alt="DIT Campus 1">
-    <img src="https://www.dituniversity.edu.in/uploads/gallery/thumb/campus-dit-2.jpg" alt="DIT Campus 2">
-  </div>
+  <p>DIT University is one of the most prestigious institutions in North India, known for its commitment to academic excellence, innovation, and research. Established in 1998, the university offers diverse programs in Engineering, Computer Applications, Management, Architecture, Pharmacy, and more.</p>
 </section>
 
 <section id="about">
   <h2>About Us</h2>
-  <p>Established in 1998, DIT University has been at the forefront of technical and professional education in India.</p>
+  <p><b>History:</b> DIT University (formerly Dehradun Institute of Technology) was established in 1998 and has since evolved into a center of excellence in education, research, and innovation. The campus is spread over 21 acres amidst the scenic foothills of Mussoorie, providing an inspiring learning environment.</p>
+  
+  <p><b>Vision:</b> To be a world-class university recognized for teaching excellence, innovation, and sustainable development.</p>
+  <p><b>Mission:</b> To empower students through education, research, and skills that enable them to be future-ready professionals and responsible citizens.</p>
+
+  <p><b>Principal’s Message:</b> “At DIT University, we believe that knowledge is the foundation of progress. Our goal is to provide an education that not only informs but transforms — shaping minds to lead and innovate.”</p>
+
+  <p><b>Campus Highlights:</b></p>
   <ul>
-    <li><b>Vision:</b> To be a leading global institution recognized for innovation and excellence.</li>
-    <li><b>Mission:</b> To promote sustainable learning and research.</li>
+    <li>21-acre lush green campus with advanced digital infrastructure</li>
+    <li>State-of-the-art laboratories and research centers</li>
+    <li>Wi-Fi enabled campus with digital classrooms</li>
+    <li>Student clubs, innovation cell, and entrepreneurship programs</li>
   </ul>
-  <p><b>Principal’s Message:</b> “Our goal is to nurture young talent and create leaders for tomorrow.”</p>
 </section>
 
 <section id="departments">
   <h2>Departments and Courses</h2>
+  <p>DIT University offers undergraduate, postgraduate, and doctoral programs across various disciplines.</p>
+  
+  <h3>🎓 School of Computing</h3>
   <ul>
-    <li>BCA, MCA, B.Tech (CSE, AI & ML, Data Science)</li>
-    <li>B.Tech (Civil, Mechanical, Electrical)</li>
-    <li>BBA, MBA</li>
-    <li>B.Arch, Interior Design</li>
+    <li><b>BCA (Bachelor of Computer Applications)</b> – Focus on software development, database management, and cloud computing.</li>
+    <li><b>B.Tech CSE</b> – Core computer science subjects with electives in Artificial Intelligence, Data Science, and Cybersecurity.</li>
+    <li><b>MCA</b> – Advanced programming, AI, and data analytics specialization.</li>
   </ul>
 
-  <h3>Faculty Details</h3>
+  <h3>🏗️ School of Engineering</h3>
+  <ul>
+    <li>B.Tech in Civil, Electrical, Mechanical, Electronics, and Communication Engineering.</li>
+    <li>Integrated and interdisciplinary programs in Robotics and IoT.</li>
+  </ul>
+
+  <h3>📊 School of Management</h3>
+  <ul>
+    <li>BBA and MBA programs with specializations in HR, Marketing, Finance, and International Business.</li>
+  </ul>
+
+  <h3>🏛️ Faculty Details</h3>
   <table>
     <tr>
       <th>Name</th>
@@ -164,17 +148,22 @@
     <tr>
       <td>Dr. Kanu Priya Goyal</td>
       <td>Professor</td>
-      <td>Computing</td>
-    </tr>
-    <tr>
-      <td>Mr. Rajesh Sharma</td>
-      <td>Assistant Professor</td>
-      <td>Management</td>
+      <td>Data Analytics and Python Programming</td>
     </tr>
     <tr>
       <td>Dr. Shashank Singh</td>
       <td>Associate Professor</td>
       <td>Cloud Computing</td>
+    </tr>
+    <tr>
+      <td>Mr. Rajesh Sharma</td>
+      <td>Assistant Professor</td>
+      <td>Business Management</td>
+    </tr>
+    <tr>
+      <td>Ms. Ritu Verma</td>
+      <td>Assistant Professor</td>
+      <td>Artificial Intelligence</td>
     </tr>
   </table>
 </section>
@@ -183,13 +172,24 @@
   <h2>Admissions 2025</h2>
   <p><b>Admission Process:</b></p>
   <ol>
-    <li>Apply online at www.dituniversity.edu.in</li>
-    <li>Appear for the entrance test</li>
-    <li>Attend counseling and document verification</li>
-    <li>Pay fees to confirm admission</li>
+    <li>Visit the official website: <a href="https://www.dituniversity.edu.in" target="_blank">www.dituniversity.edu.in</a></li>
+    <li>Fill out the online application form</li>
+    <li>Appear for the entrance test or merit-based counseling</li>
+    <li>Document verification and fee submission</li>
   </ol>
-  <p><b>Eligibility:</b> 10+2 (for UG), Graduation (for PG)</p>
-  <p><b>Important Dates:</b> Applications open March 2025, close June 2025.</p>
+
+  <p><b>Eligibility Criteria:</b></p>
+  <ul>
+    <li>UG Courses: 10+2 with minimum 60% marks</li>
+    <li>PG Courses: Bachelor's Degree in relevant stream</li>
+  </ul>
+
+  <p><b>Important Dates:</b></p>
+  <ul>
+    <li>Application Opens: March 2025</li>
+    <li>Last Date to Apply: June 2025</li>
+    <li>Classes Commence: August 2025</li>
+  </ul>
 </section>
 
 <section id="contact">
@@ -198,12 +198,12 @@
   <p><b>Phone:</b> +91-135-300-1234 | <b>Email:</b> info@dituniversity.edu.in</p>
 
   <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.7941816607896!2d78.07016887509018!3d30.379973606169886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929f4b1428e2d%3A0xabc742b1a0588150!2sDIT%20University!5e0!3m2!1sen!2sin!4v1709913770100!5m2!1sen!2sin" 
-      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.7941816607896!2d78.07016887509018!3d30.379973606169886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929f4b1428e2d%3A0xabc742b1a0588150!2sDIT%20University!5e0!3m2!1sen!2sin!4v1709913770100!5m2!1sen!2sin"
+    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
 
 <footer>
-  <p>© 2025 DIT University | Designed for Cloud Computing Project</p>
+  <p>© 2025 DIT University | Cloud Computing Project by Aditi Kumari</p>
 </footer>
 
 </body>
