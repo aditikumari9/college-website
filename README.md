@@ -12,32 +12,61 @@
       background-color: #f5f7fa;
       color: #333;
     }
+
     header {
       background-color: #004080;
       color: white;
-      text-align: center;
-      padding: 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 15px;
     }
+
+    header img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
     nav {
       background: #022b5f;
       text-align: center;
       padding: 10px;
     }
+
     nav a {
       color: white;
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
+      transition: 0.3s;
     }
+
     nav a:hover {
       text-decoration: underline;
+      color: #ffcc00;
     }
+
+    .banner {
+      width: 100%;
+      height: 300px;
+      background-image: url('https://www.dituniversity.edu.in/uploads/slider/ditu-campus.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
     section {
-      padding: 20px;
+      padding: 25px;
     }
+
     h2 {
       color: #004080;
+      border-bottom: 2px solid #004080;
+      display: inline-block;
+      padding-bottom: 5px;
     }
+
     footer {
       background: #004080;
       color: white;
@@ -45,30 +74,42 @@
       padding: 15px 0;
       margin-top: 20px;
     }
+
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 15px;
     }
+
     table, th, td {
       border: 1px solid #ccc;
     }
+
     th, td {
       padding: 8px;
       text-align: left;
     }
-    .banner {
-      width: 100%;
-      height: 250px;
-      background-image: url('https://www.dituniversity.edu.in/images/banner-campus.jpg');
-      background-size: cover;
-      background-position: center;
+
+    .image-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .image-gallery img {
+      width: 300px;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
 
 <header>
+  <img src="https://www.dituniversity.edu.in/images/dit-logo.svg" alt="DIT University Logo">
   <h1>DIT University, Dehradun</h1>
   <p>Imagine | Innovate | Inspire</p>
 </header>
@@ -87,6 +128,11 @@
   <h2>Welcome to DIT University</h2>
   <p>DIT University is a leading institution committed to academic excellence, innovation, and holistic education.</p>
   <p><strong>Mission:</strong> To provide quality education that empowers students with knowledge and professional values.</p>
+
+  <div class="image-gallery">
+    <img src="https://www.dituniversity.edu.in/uploads/gallery/thumb/campus-dit-1.jpg" alt="DIT Campus 1">
+    <img src="https://www.dituniversity.edu.in/uploads/gallery/thumb/campus-dit-2.jpg" alt="DIT Campus 2">
+  </div>
 </section>
 
 <section id="about">
@@ -108,11 +154,28 @@
     <li>B.Arch, Interior Design</li>
   </ul>
 
-  <h3>Faculty (Example)</h3>
+  <h3>Faculty Details</h3>
   <table>
-    <tr><th>Name</th><th>Designation</th><th>Department</th></tr>
-    <tr><td>Dr. Kanu Priya Goyal</td><td>Professor</td><td>Computing</td></tr>
-    <tr><td>Mr. Rajesh Sharma</td><td>Assistant Professor</td><td>Management</td></tr>
+    <tr>
+      <th>Name</th>
+      <th>Designation</th>
+      <th>Department / Subject</th>
+    </tr>
+    <tr>
+      <td>Dr. Kanu Priya Goyal</td>
+      <td>Professor</td>
+      <td>Computing</td>
+    </tr>
+    <tr>
+      <td>Mr. Rajesh Sharma</td>
+      <td>Assistant Professor</td>
+      <td>Management</td>
+    </tr>
+    <tr>
+      <td>Dr. Shashank Singh</td>
+      <td>Associate Professor</td>
+      <td>Cloud Computing</td>
+    </tr>
   </table>
 </section>
 
@@ -133,6 +196,7 @@
   <h2>Contact Us</h2>
   <p><b>Address:</b> DIT University, Mussoorie Diversion Road, Dehradun, Uttarakhand – 248009</p>
   <p><b>Phone:</b> +91-135-300-1234 | <b>Email:</b> info@dituniversity.edu.in</p>
+
   <iframe 
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.7941816607896!2d78.07016887509018!3d30.379973606169886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929f4b1428e2d%3A0xabc742b1a0588150!2sDIT%20University!5e0!3m2!1sen!2sin!4v1709913770100!5m2!1sen!2sin" 
       width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -144,3 +208,4 @@
 
 </body>
 </html>
+
