@@ -73,6 +73,35 @@
       padding: 20px;
       margin-top: 20px;
     }
+    .social a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .form-box {
+      background-color: #eef4fc;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #004d99;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button:hover {
+      background-color: #002b5c;
+    }
   </style>
 </head>
 <body>
@@ -113,6 +142,23 @@
     <li>State-of-the-art laboratories and research centers</li>
     <li>Wi-Fi enabled campus with digital classrooms</li>
     <li>Student clubs, innovation cell, and entrepreneurship programs</li>
+    <li>Scholarship and Financial Aid programs for meritorious students</li>
+    <li>Dedicated Sports Complex and Fitness Facilities</li>
+  </ul>
+
+  <h3>🏅 Scholarships & Sports Encouragement</h3>
+  <p><b>Scholarships:</b> DIT University offers several merit-based scholarships for outstanding academic performers, economically weaker sections, and wards of defense personnel.</p>
+  <ul>
+    <li>100% tuition fee waiver for top rankers (based on 10+2 or entrance exam)</li>
+    <li>Up to 50% scholarship for students scoring 85% or above</li>
+    <li>Special scholarships for female students to encourage participation in STEM</li>
+  </ul>
+
+  <p><b>Sports Encouragement:</b> The university promotes sportsmanship through:</p>
+  <ul>
+    <li>Annual Sports Fest “Aarohan”</li>
+    <li>Cricket, Football, Volleyball, Badminton, Athletics, and Gym facilities</li>
+    <li>Special rewards and attendance benefits for students participating in inter-college tournaments</li>
   </ul>
 </section>
 
@@ -123,19 +169,19 @@
   <h3>🎓 School of Computing</h3>
   <ul>
     <li><b>BCA (Bachelor of Computer Applications)</b> – Focus on software development, database management, and cloud computing.</li>
-    <li><b>B.Tech CSE</b> – Core computer science subjects with electives in Artificial Intelligence, Data Science, and Cybersecurity.</li>
-    <li><b>MCA</b> – Advanced programming, AI, and data analytics specialization.</li>
+    <li><b>B.Tech CSE</b> – Core computer science subjects with electives in AI, Data Science, and Cybersecurity.</li>
+    <li><b>MCA</b> – Advanced programming, machine learning, and data analytics specialization.</li>
   </ul>
 
   <h3>🏗️ School of Engineering</h3>
   <ul>
-    <li>B.Tech in Civil, Electrical, Mechanical, Electronics, and Communication Engineering.</li>
-    <li>Integrated and interdisciplinary programs in Robotics and IoT.</li>
+    <li>B.Tech in Civil, Electrical, Mechanical, and Electronics Engineering</li>
+    <li>Integrated programs in Robotics, IoT, and Renewable Energy</li>
   </ul>
 
   <h3>📊 School of Management</h3>
   <ul>
-    <li>BBA and MBA programs with specializations in HR, Marketing, Finance, and International Business.</li>
+    <li>BBA and MBA programs with specializations in HR, Marketing, Finance, and International Business</li>
   </ul>
 
   <h3>🏛️ Faculty Details</h3>
@@ -146,24 +192,24 @@
       <th>Department / Subject</th>
     </tr>
     <tr>
-      <td>Dr. Kanu Priya Goyal</td>
-      <td>Professor</td>
-      <td>Data Analytics and Python Programming</td>
-    </tr>
-    <tr>
       <td>Dr. Shashank Singh</td>
       <td>Associate Professor</td>
       <td>Cloud Computing</td>
     </tr>
     <tr>
-      <td>Mr. Rajesh Sharma</td>
-      <td>Assistant Professor</td>
-      <td>Business Management</td>
+      <td>Dr. Kanu Priya Goyal</td>
+      <td>Professor</td>
+      <td>Data Analytics and Python Programming</td>
     </tr>
     <tr>
       <td>Ms. Ritu Verma</td>
       <td>Assistant Professor</td>
       <td>Artificial Intelligence</td>
+    </tr>
+    <tr>
+      <td>Mr. Rajesh Sharma</td>
+      <td>Assistant Professor</td>
+      <td>Business Management</td>
     </tr>
   </table>
 </section>
@@ -196,7 +242,26 @@
   <h2>Contact Us</h2>
   <p><b>Address:</b> DIT University, Mussoorie Diversion Road, Dehradun, Uttarakhand – 248009</p>
   <p><b>Phone:</b> +91-135-300-1234 | <b>Email:</b> info@dituniversity.edu.in</p>
+  <p><b>Office Hours:</b> Monday to Saturday – 9:00 AM to 5:00 PM</p>
 
+  <div class="form-box">
+    <h3>📩 Enquiry Form</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <p><b>Follow Us:</b></p>
+  <div class="social">
+    <a href="https://www.facebook.com/dituniversity" target="_blank">Facebook</a> |
+    <a href="https://www.instagram.com/dituniversity" target="_blank">Instagram</a> |
+    <a href="https://www.linkedin.com/school/dit-university/" target="_blank">LinkedIn</a>
+  </div>
+
+  <br>
   <iframe 
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.7941816607896!2d78.07016887509018!3d30.379973606169886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929f4b1428e2d%3A0xabc742b1a0588150!2sDIT%20University!5e0!3m2!1sen!2sin!4v1709913770100!5m2!1sen!2sin"
     width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
