@@ -245,7 +245,7 @@
   <p><b>Office Hours:</b> Monday to Saturday – 9:00 AM to 5:00 PM</p>
 
   <div class="form-box">
-    <h3>📩 Enquiry Form</h3>
+    <h3> Enquiry Form</h3>
     <form>
       <input type="text" placeholder="Your Name" required>
       <input type="email" placeholder="Your Email" required>
